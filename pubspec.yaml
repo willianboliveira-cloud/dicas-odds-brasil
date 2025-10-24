@@ -1,0 +1,16 @@
+name: dicas_odds_brasil
+description: App de dicas de apostas Brasil
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash.png
